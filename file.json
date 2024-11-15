@@ -1,0 +1,1751 @@
+{
+    "network": [
+        {
+            "method": "Network.responseReceived",
+            "params": {
+                "frameId": "EE1BFB0891927F6ECED33B6D178F4883",
+                "hasExtraInfo": false,
+                "loaderId": "E5F92BF91782598EC4EAE7A4BD1EB298",
+                "requestId": "14020.2",
+                "response": {
+                    "charset": "US-ASCII",
+                    "connectionId": 0,
+                    "connectionReused": false,
+                    "encodedDataLength": 0,
+                    "fromDiskCache": false,
+                    "fromPrefetchCache": false,
+                    "fromServiceWorker": false,
+                    "headers": {
+                        "Content-Type": "text/plain;charset=US-ASCII"
+                    },
+                    "mimeType": "text/plain",
+                    "protocol": "data",
+                    "securityState": "unknown",
+                    "status": 200,
+                    "statusText": "OK",
+                    "url": "data:,"
+                },
+                "timestamp": 232102.687636,
+                "type": "Other"
+            }
+        },
+        {
+            "method": "Network.requestWillBeSent",
+            "params": {
+                "documentURL": "https://qa-container.agilecontent.com.br/ec2-monitor/index.html",
+                "frameId": "EE1BFB0891927F6ECED33B6D178F4883",
+                "hasUserGesture": false,
+                "initiator": {
+                    "type": "other"
+                },
+                "loaderId": "9EC2F4E4F09783F3FF304E7D838FE8FF",
+                "redirectHasExtraInfo": false,
+                "request": {
+                    "headers": {
+                        "Upgrade-Insecure-Requests": "1",
+                        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+                        "sec-ch-ua": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+                        "sec-ch-ua-mobile": "?0",
+                        "sec-ch-ua-platform": "\"Windows\""
+                    },
+                    "initialPriority": "VeryHigh",
+                    "isSameSite": true,
+                    "method": "GET",
+                    "mixedContentType": "none",
+                    "referrerPolicy": "strict-origin-when-cross-origin",
+                    "url": "https://qa-container.agilecontent.com.br/ec2-monitor/index.html"
+                },
+                "requestId": "9EC2F4E4F09783F3FF304E7D838FE8FF",
+                "timestamp": 232108.520831,
+                "type": "Document",
+                "wallTime": 1731698733.798985
+            }
+        },
+        {
+            "method": "Network.responseReceived",
+            "params": {
+                "frameId": "EE1BFB0891927F6ECED33B6D178F4883",
+                "hasExtraInfo": true,
+                "loaderId": "9EC2F4E4F09783F3FF304E7D838FE8FF",
+                "requestId": "9EC2F4E4F09783F3FF304E7D838FE8FF",
+                "response": {
+                    "alternateProtocolUsage": "unspecifiedReason",
+                    "charset": "utf-8",
+                    "connectionId": 132,
+                    "connectionReused": false,
+                    "encodedDataLength": 364,
+                    "fromDiskCache": false,
+                    "fromPrefetchCache": false,
+                    "fromServiceWorker": false,
+                    "headers": {
+                        "Cache-Control": "no-cache",
+                        "Connection": "keep-alive",
+                        "Content-Disposition": "inline; filename=index.html",
+                        "Content-Encoding": "gzip",
+                        "Content-Type": "text/html; charset=utf-8",
+                        "Date": "Fri, 15 Nov 2024 19:25:35 GMT",
+                        "Etag": "W/\"1728313073.0-3119-3698134188\"",
+                        "Last-Modified": "Mon, 07 Oct 2024 14:57:53 GMT",
+                        "Server": "nginx/1.24.0 (Ubuntu)",
+                        "Transfer-Encoding": "chunked"
+                    },
+                    "mimeType": "text/html",
+                    "protocol": "http/1.1",
+                    "remoteIPAddress": "3.217.19.152",
+                    "remotePort": 443,
+                    "responseTime": 1731698734262.986,
+                    "securityDetails": {
+                        "certificateId": 0,
+                        "certificateTransparencyCompliance": "compliant",
+                        "cipher": "AES_256_GCM",
+                        "encryptedClientHello": false,
+                        "issuer": "E5",
+                        "keyExchange": "",
+                        "keyExchangeGroup": "X25519",
+                        "protocol": "TLS 1.3",
+                        "sanList": [
+                            "qa-container.agilecontent.com.br"
+                        ],
+                        "serverSignatureAlgorithm": 1027,
+                        "signedCertificateTimestampList": [
+                            {
+                                "hashAlgorithm": "SHA-256",
+                                "logDescription": "Let's Encrypt 'Oak2024H2' log",
+                                "logId": "3F174B4FD7224758941D651C84BE0D12ED90377F1F856AEBC1BF2885ECF8646E",
+                                "origin": "Embedded in certificate",
+                                "signatureAlgorithm": "ECDSA",
+                                "signatureData": "30450221008DDBDE91F54B59C9833F10AC31F9DF3BC4A12320A9375C388E18918DF3A7F42D0220171A5C6F5A95C96B7F0B670EEC6CB3FFF111137EEB6A8609D4BE149752B4188A",
+                                "status": "Verified",
+                                "timestamp": 1728245805929.0
+                            },
+                            {
+                                "hashAlgorithm": "SHA-256",
+                                "logDescription": "Sectigo 'Sabre2025h1'",
+                                "logId": "E092B3FC0C1DC8E768361FDE61B9964D0A5278198A72D672C4B04DA56D6F5404",
+                                "origin": "Embedded in certificate",
+                                "signatureAlgorithm": "ECDSA",
+                                "signatureData": "3045022100860757E50BC369B4B055AAACB2BFFA2CE140B7A783B472F721C9015F33BCF07E022046DD7C78112D48EAA69C648E6FEA64816A0B7E5461667752E0B33665CFAF6262",
+                                "status": "Verified",
+                                "timestamp": 1728245807970.0
+                            }
+                        ],
+                        "subjectName": "qa-container.agilecontent.com.br",
+                        "validFrom": 1728242295,
+                        "validTo": 1736018294
+                    },
+                    "securityState": "secure",
+                    "status": 200,
+                    "statusText": "OK",
+                    "timing": {
+                        "connectEnd": 312.535,
+                        "connectStart": 10.819,
+                        "dnsEnd": 10.398,
+                        "dnsStart": 0,
+                        "proxyEnd": -1,
+                        "proxyStart": -1,
+                        "pushEnd": 0,
+                        "pushStart": 0,
+                        "receiveHeadersEnd": 463.728,
+                        "receiveHeadersStart": 463.606,
+                        "requestTime": 232108.521239,
+                        "sendEnd": 312.82,
+                        "sendStart": 312.774,
+                        "sslEnd": 312.53,
+                        "sslStart": 165.041,
+                        "workerFetchStart": -1,
+                        "workerReady": -1,
+                        "workerRespondWithSettled": -1,
+                        "workerStart": -1
+                    },
+                    "url": "https://qa-container.agilecontent.com.br/ec2-monitor/index.html"
+                },
+                "timestamp": 232108.985571,
+                "type": "Document"
+            }
+        },
+        {
+            "method": "Network.requestWillBeSent",
+            "params": {
+                "documentURL": "https://qa-container.agilecontent.com.br/ec2-monitor/index.html",
+                "frameId": "EE1BFB0891927F6ECED33B6D178F4883",
+                "hasUserGesture": false,
+                "initiator": {
+                    "columnNumber": 113,
+                    "lineNumber": 7,
+                    "type": "parser",
+                    "url": "https://qa-container.agilecontent.com.br/ec2-monitor/index.html"
+                },
+                "loaderId": "9EC2F4E4F09783F3FF304E7D838FE8FF",
+                "redirectHasExtraInfo": false,
+                "request": {
+                    "headers": {
+                        "Referer": "https://qa-container.agilecontent.com.br/",
+                        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+                        "sec-ch-ua": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+                        "sec-ch-ua-mobile": "?0",
+                        "sec-ch-ua-platform": "\"Windows\""
+                    },
+                    "initialPriority": "VeryHigh",
+                    "isSameSite": false,
+                    "method": "GET",
+                    "mixedContentType": "none",
+                    "referrerPolicy": "strict-origin-when-cross-origin",
+                    "url": "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+                },
+                "requestId": "1160.2",
+                "timestamp": 232108.98893,
+                "type": "Stylesheet",
+                "wallTime": 1731698734.2671
+            }
+        },
+        {
+            "method": "Network.requestWillBeSent",
+            "params": {
+                "documentURL": "https://qa-container.agilecontent.com.br/ec2-monitor/index.html",
+                "frameId": "EE1BFB0891927F6ECED33B6D178F4883",
+                "hasUserGesture": false,
+                "initiator": {
+                    "columnNumber": 42,
+                    "lineNumber": 8,
+                    "type": "parser",
+                    "url": "https://qa-container.agilecontent.com.br/ec2-monitor/index.html"
+                },
+                "loaderId": "9EC2F4E4F09783F3FF304E7D838FE8FF",
+                "redirectHasExtraInfo": false,
+                "request": {
+                    "headers": {
+                        "Referer": "https://qa-container.agilecontent.com.br/ec2-monitor/index.html",
+                        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+                        "sec-ch-ua": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+                        "sec-ch-ua-mobile": "?0",
+                        "sec-ch-ua-platform": "\"Windows\""
+                    },
+                    "initialPriority": "VeryHigh",
+                    "isSameSite": true,
+                    "method": "GET",
+                    "mixedContentType": "none",
+                    "referrerPolicy": "strict-origin-when-cross-origin",
+                    "url": "https://qa-container.agilecontent.com.br/ec2-monitor/style.css"
+                },
+                "requestId": "1160.3",
+                "timestamp": 232108.989121,
+                "type": "Stylesheet",
+                "wallTime": 1731698734.267271
+            }
+        },
+        {
+            "method": "Network.requestWillBeSent",
+            "params": {
+                "documentURL": "https://qa-container.agilecontent.com.br/ec2-monitor/index.html",
+                "frameId": "EE1BFB0891927F6ECED33B6D178F4883",
+                "hasUserGesture": false,
+                "initiator": {
+                    "columnNumber": 88,
+                    "lineNumber": 9,
+                    "type": "parser",
+                    "url": "https://qa-container.agilecontent.com.br/ec2-monitor/index.html"
+                },
+                "loaderId": "9EC2F4E4F09783F3FF304E7D838FE8FF",
+                "redirectHasExtraInfo": false,
+                "request": {
+                    "headers": {
+                        "Referer": "https://qa-container.agilecontent.com.br/",
+                        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+                        "sec-ch-ua": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+                        "sec-ch-ua-mobile": "?0",
+                        "sec-ch-ua-platform": "\"Windows\""
+                    },
+                    "initialPriority": "VeryHigh",
+                    "isSameSite": false,
+                    "method": "GET",
+                    "mixedContentType": "none",
+                    "referrerPolicy": "strict-origin-when-cross-origin",
+                    "url": "https://fonts.googleapis.com/icon?family=Material+Icons"
+                },
+                "requestId": "1160.4",
+                "timestamp": 232108.989193,
+                "type": "Stylesheet",
+                "wallTime": 1731698734.267349
+            }
+        },
+        {
+            "method": "Network.requestWillBeSent",
+            "params": {
+                "documentURL": "https://qa-container.agilecontent.com.br/ec2-monitor/index.html",
+                "frameId": "EE1BFB0891927F6ECED33B6D178F4883",
+                "hasUserGesture": false,
+                "initiator": {
+                    "columnNumber": 95,
+                    "lineNumber": 10,
+                    "type": "parser",
+                    "url": "https://qa-container.agilecontent.com.br/ec2-monitor/index.html"
+                },
+                "loaderId": "9EC2F4E4F09783F3FF304E7D838FE8FF",
+                "redirectHasExtraInfo": false,
+                "request": {
+                    "headers": {
+                        "Referer": "https://qa-container.agilecontent.com.br/",
+                        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+                        "sec-ch-ua": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+                        "sec-ch-ua-mobile": "?0",
+                        "sec-ch-ua-platform": "\"Windows\""
+                    },
+                    "initialPriority": "High",
+                    "isSameSite": false,
+                    "method": "GET",
+                    "mixedContentType": "none",
+                    "referrerPolicy": "strict-origin-when-cross-origin",
+                    "url": "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"
+                },
+                "requestId": "1160.5",
+                "timestamp": 232108.989275,
+                "type": "Script",
+                "wallTime": 1731698734.267433
+            }
+        },
+        {
+            "method": "Network.requestWillBeSent",
+            "params": {
+                "documentURL": "https://qa-container.agilecontent.com.br/ec2-monitor/index.html",
+                "frameId": "EE1BFB0891927F6ECED33B6D178F4883",
+                "hasUserGesture": false,
+                "initiator": {
+                    "columnNumber": 63,
+                    "lineNumber": 19,
+                    "type": "parser",
+                    "url": "https://qa-container.agilecontent.com.br/ec2-monitor/index.html"
+                },
+                "loaderId": "9EC2F4E4F09783F3FF304E7D838FE8FF",
+                "redirectHasExtraInfo": false,
+                "request": {
+                    "headers": {
+                        "Referer": "https://qa-container.agilecontent.com.br/ec2-monitor/index.html",
+                        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+                        "sec-ch-ua": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+                        "sec-ch-ua-mobile": "?0",
+                        "sec-ch-ua-platform": "\"Windows\""
+                    },
+                    "initialPriority": "Low",
+                    "isSameSite": true,
+                    "method": "GET",
+                    "mixedContentType": "none",
+                    "referrerPolicy": "strict-origin-when-cross-origin",
+                    "url": "https://qa-container.agilecontent.com.br/ec2-monitor/agile.png"
+                },
+                "requestId": "1160.6",
+                "timestamp": 232108.989379,
+                "type": "Image",
+                "wallTime": 1731698734.267532
+            }
+        },
+        {
+            "method": "Network.requestWillBeSent",
+            "params": {
+                "documentURL": "https://qa-container.agilecontent.com.br/ec2-monitor/index.html",
+                "frameId": "EE1BFB0891927F6ECED33B6D178F4883",
+                "hasUserGesture": false,
+                "initiator": {
+                    "columnNumber": 59,
+                    "lineNumber": 83,
+                    "type": "parser",
+                    "url": "https://qa-container.agilecontent.com.br/ec2-monitor/index.html"
+                },
+                "loaderId": "9EC2F4E4F09783F3FF304E7D838FE8FF",
+                "redirectHasExtraInfo": false,
+                "request": {
+                    "headers": {
+                        "Referer": "https://qa-container.agilecontent.com.br/",
+                        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+                        "sec-ch-ua": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+                        "sec-ch-ua-mobile": "?0",
+                        "sec-ch-ua-platform": "\"Windows\""
+                    },
+                    "initialPriority": "Medium",
+                    "isSameSite": false,
+                    "method": "GET",
+                    "mixedContentType": "none",
+                    "referrerPolicy": "strict-origin-when-cross-origin",
+                    "url": "https://unpkg.com/vue@3/dist/vue.global.js"
+                },
+                "requestId": "1160.7",
+                "timestamp": 232108.989436,
+                "type": "Script",
+                "wallTime": 1731698734.267584
+            }
+        },
+        {
+            "method": "Network.requestWillBeSent",
+            "params": {
+                "documentURL": "https://qa-container.agilecontent.com.br/ec2-monitor/index.html",
+                "frameId": "EE1BFB0891927F6ECED33B6D178F4883",
+                "hasUserGesture": false,
+                "initiator": {
+                    "columnNumber": 25,
+                    "lineNumber": 84,
+                    "type": "parser",
+                    "url": "https://qa-container.agilecontent.com.br/ec2-monitor/index.html"
+                },
+                "loaderId": "9EC2F4E4F09783F3FF304E7D838FE8FF",
+                "redirectHasExtraInfo": false,
+                "request": {
+                    "headers": {
+                        "Referer": "https://qa-container.agilecontent.com.br/ec2-monitor/index.html",
+                        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+                        "sec-ch-ua": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+                        "sec-ch-ua-mobile": "?0",
+                        "sec-ch-ua-platform": "\"Windows\""
+                    },
+                    "initialPriority": "Medium",
+                    "isSameSite": true,
+                    "method": "GET",
+                    "mixedContentType": "none",
+                    "referrerPolicy": "strict-origin-when-cross-origin",
+                    "url": "https://qa-container.agilecontent.com.br/ec2-monitor/index.js"
+                },
+                "requestId": "1160.8",
+                "timestamp": 232108.989509,
+                "type": "Script",
+                "wallTime": 1731698734.267668
+            }
+        },
+        {
+            "method": "Network.responseReceived",
+            "params": {
+                "frameId": "EE1BFB0891927F6ECED33B6D178F4883",
+                "hasExtraInfo": true,
+                "loaderId": "9EC2F4E4F09783F3FF304E7D838FE8FF",
+                "requestId": "1160.2",
+                "response": {
+                    "alternateProtocolUsage": "unspecifiedReason",
+                    "charset": "utf-8",
+                    "connectionId": 193,
+                    "connectionReused": false,
+                    "encodedDataLength": 8513,
+                    "fromDiskCache": false,
+                    "fromPrefetchCache": false,
+                    "fromServiceWorker": false,
+                    "headers": {
+                        "accept-ranges": "bytes",
+                        "access-control-allow-origin": "*",
+                        "age": "2152328",
+                        "alt-svc": "h3=\":443\"; ma=86400",
+                        "cache-control": "public, max-age=30672000",
+                        "cf-cache-status": "HIT",
+                        "cf-cdnjs-via": "cfworker/kv",
+                        "cf-ray": "8e31a0c7cb869513-JOI",
+                        "content-encoding": "br",
+                        "content-length": "17475",
+                        "content-type": "text/css; charset=utf-8",
+                        "cross-origin-resource-policy": "cross-origin",
+                        "date": "Fri, 15 Nov 2024 19:25:35 GMT",
+                        "etag": "\"5eb03efe-22a11\"",
+                        "expires": "Wed, 05 Nov 2025 19:25:35 GMT",
+                        "last-modified": "Mon, 04 May 2020 16:12:46 GMT",
+                        "nel": "{\"success_fraction\":0.01,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                        "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=gsrUH9PZ1rUtMnEVcGbktwUVgG6MTUCYDouKBUU1K0CxWo10esUkPaadUIt7TBYCDX4uo6bEU5RGQqnHkP8dJJOLOgfmrVcHbRhJ99uwytZpdy3g8KulvI8xcX258aBxX6smpksH\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                        "server": "cloudflare",
+                        "strict-transport-security": "max-age=15780000",
+                        "timing-allow-origin": "*",
+                        "vary": "Accept-Encoding",
+                        "x-content-type-options": "nosniff"
+                    },
+                    "mimeType": "text/css",
+                    "protocol": "h2",
+                    "remoteIPAddress": "104.17.25.14",
+                    "remotePort": 443,
+                    "responseTime": 1731698734396.001,
+                    "securityDetails": {
+                        "certificateId": 0,
+                        "certificateTransparencyCompliance": "compliant",
+                        "cipher": "AES_128_GCM",
+                        "encryptedClientHello": false,
+                        "issuer": "WE1",
+                        "keyExchange": "",
+                        "keyExchangeGroup": "X25519MLKEM768",
+                        "protocol": "TLS 1.3",
+                        "sanList": [
+                            "cdnjs.cloudflare.com",
+                            "*.cdnjs.cloudflare.com"
+                        ],
+                        "serverSignatureAlgorithm": 1027,
+                        "signedCertificateTimestampList": [
+                            {
+                                "hashAlgorithm": "SHA-256",
+                                "logDescription": "Google 'Argon2024' log",
+                                "logId": "EECDD064D5DB1ACEC55CB79DB4CD13A23287467CBCECDEC351485946711FB59B",
+                                "origin": "Embedded in certificate",
+                                "signatureAlgorithm": "ECDSA",
+                                "signatureData": "304602210096C3B2BF1010E2D8DD7B89E00F0D0C8AC285C0931249B7156BF7D9B6DE4A7102022100F058CFF22CA0F4229C4CC6F3CAE940C55E10AAA27A41CAF2C970912988A2B667",
+                                "status": "Verified",
+                                "timestamp": 1727505306038.0
+                            },
+                            {
+                                "hashAlgorithm": "SHA-256",
+                                "logDescription": "Sectigo 'Mammoth2024h2'",
+                                "logId": "DFE156EBAA05AFB59C0F86718DA8C0324EAE56D96EA7F5A56A01D1C13BBE525C",
+                                "origin": "Embedded in certificate",
+                                "signatureAlgorithm": "ECDSA",
+                                "signatureData": "30440220420D986F2D6C07A7772FF8F3BDDF0BCE28E40B5021B7FDDAC5D6BDEB0DFFDCBA02206FDEB8B12BA8EA2CBF89B57FDB8F6E09D63D10F0EE0A041BDAE599BD55DC94B1",
+                                "status": "Verified",
+                                "timestamp": 1727505306242.0
+                            }
+                        ],
+                        "subjectName": "cdnjs.cloudflare.com",
+                        "validFrom": 1727501705,
+                        "validTo": 1735277704
+                    },
+                    "securityState": "secure",
+                    "status": 200,
+                    "statusText": "",
+                    "timing": {
+                        "connectEnd": 90.096,
+                        "connectStart": 26.098,
+                        "dnsEnd": 25.696,
+                        "dnsStart": 5.67,
+                        "proxyEnd": -1,
+                        "proxyStart": -1,
+                        "pushEnd": 0,
+                        "pushStart": 0,
+                        "receiveHeadersEnd": 128.851,
+                        "receiveHeadersStart": 128.495,
+                        "requestTime": 232108.98935,
+                        "sendEnd": 90.355,
+                        "sendStart": 90.248,
+                        "sslEnd": 90.093,
+                        "sslStart": 53.358,
+                        "workerFetchStart": -1,
+                        "workerReady": -1,
+                        "workerRespondWithSettled": -1,
+                        "workerStart": -1
+                    },
+                    "url": "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+                },
+                "timestamp": 232109.118497,
+                "type": "Stylesheet"
+            }
+        },
+        {
+            "method": "Network.responseReceived",
+            "params": {
+                "frameId": "EE1BFB0891927F6ECED33B6D178F4883",
+                "hasExtraInfo": true,
+                "loaderId": "9EC2F4E4F09783F3FF304E7D838FE8FF",
+                "requestId": "1160.5",
+                "response": {
+                    "alternateProtocolUsage": "unspecifiedReason",
+                    "charset": "utf-8",
+                    "connectionId": 193,
+                    "connectionReused": true,
+                    "encodedDataLength": 3386,
+                    "fromDiskCache": false,
+                    "fromPrefetchCache": false,
+                    "fromServiceWorker": false,
+                    "headers": {
+                        "accept-ranges": "bytes",
+                        "access-control-allow-origin": "*",
+                        "age": "2724795",
+                        "alt-svc": "h3=\":443\"; ma=86400",
+                        "cache-control": "public, max-age=30672000",
+                        "cf-cache-status": "HIT",
+                        "cf-cdnjs-via": "cfworker/kv",
+                        "cf-ray": "8e31a0c7cb889513-JOI",
+                        "content-encoding": "br",
+                        "content-length": "36877",
+                        "content-type": "application/javascript; charset=utf-8",
+                        "cross-origin-resource-policy": "cross-origin",
+                        "date": "Fri, 15 Nov 2024 19:25:35 GMT",
+                        "etag": "\"5eb03efe-2c375\"",
+                        "expires": "Wed, 05 Nov 2025 19:25:35 GMT",
+                        "last-modified": "Mon, 04 May 2020 16:12:46 GMT",
+                        "nel": "{\"success_fraction\":0.01,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                        "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=V7XkkttFaXQvTgDAMEUWs7QXPOV2T5L6YCHG%2BaISUv487f9Pk%2BvdksIZtnqfIr3n5zRCWaRntDjYCy7NfZGWB3OIrfOvLv2AeeKvdBJw%2BeJBJOnPTGFZqJXYK3dKnSchDU6NOS1z\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                        "server": "cloudflare",
+                        "strict-transport-security": "max-age=15780000",
+                        "timing-allow-origin": "*",
+                        "vary": "Accept-Encoding",
+                        "x-content-type-options": "nosniff"
+                    },
+                    "mimeType": "application/javascript",
+                    "protocol": "h2",
+                    "remoteIPAddress": "104.17.25.14",
+                    "remotePort": 443,
+                    "responseTime": 1731698734392.256,
+                    "securityDetails": {
+                        "certificateId": 0,
+                        "certificateTransparencyCompliance": "compliant",
+                        "cipher": "AES_128_GCM",
+                        "encryptedClientHello": false,
+                        "issuer": "WE1",
+                        "keyExchange": "",
+                        "keyExchangeGroup": "X25519MLKEM768",
+                        "protocol": "TLS 1.3",
+                        "sanList": [
+                            "cdnjs.cloudflare.com",
+                            "*.cdnjs.cloudflare.com"
+                        ],
+                        "serverSignatureAlgorithm": 1027,
+                        "signedCertificateTimestampList": [
+                            {
+                                "hashAlgorithm": "SHA-256",
+                                "logDescription": "Google 'Argon2024' log",
+                                "logId": "EECDD064D5DB1ACEC55CB79DB4CD13A23287467CBCECDEC351485946711FB59B",
+                                "origin": "Embedded in certificate",
+                                "signatureAlgorithm": "ECDSA",
+                                "signatureData": "304602210096C3B2BF1010E2D8DD7B89E00F0D0C8AC285C0931249B7156BF7D9B6DE4A7102022100F058CFF22CA0F4229C4CC6F3CAE940C55E10AAA27A41CAF2C970912988A2B667",
+                                "status": "Verified",
+                                "timestamp": 1727505306038.0
+                            },
+                            {
+                                "hashAlgorithm": "SHA-256",
+                                "logDescription": "Sectigo 'Mammoth2024h2'",
+                                "logId": "DFE156EBAA05AFB59C0F86718DA8C0324EAE56D96EA7F5A56A01D1C13BBE525C",
+                                "origin": "Embedded in certificate",
+                                "signatureAlgorithm": "ECDSA",
+                                "signatureData": "30440220420D986F2D6C07A7772FF8F3BDDF0BCE28E40B5021B7FDDAC5D6BDEB0DFFDCBA02206FDEB8B12BA8EA2CBF89B57FDB8F6E09D63D10F0EE0A041BDAE599BD55DC94B1",
+                                "status": "Verified",
+                                "timestamp": 1727505306242.0
+                            }
+                        ],
+                        "subjectName": "cdnjs.cloudflare.com",
+                        "validFrom": 1727501705,
+                        "validTo": 1735277704
+                    },
+                    "securityState": "secure",
+                    "status": 200,
+                    "statusText": "",
+                    "timing": {
+                        "connectEnd": -1,
+                        "connectStart": -1,
+                        "dnsEnd": -1,
+                        "dnsStart": -1,
+                        "proxyEnd": -1,
+                        "proxyStart": -1,
+                        "pushEnd": 0,
+                        "pushStart": 0,
+                        "receiveHeadersEnd": 124.565,
+                        "receiveHeadersStart": 124.303,
+                        "requestTime": 232108.989786,
+                        "sendEnd": 89.92,
+                        "sendStart": 89.852,
+                        "sslEnd": -1,
+                        "sslStart": -1,
+                        "workerFetchStart": -1,
+                        "workerReady": -1,
+                        "workerRespondWithSettled": -1,
+                        "workerStart": -1
+                    },
+                    "url": "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"
+                },
+                "timestamp": 232109.121971,
+                "type": "Script"
+            }
+        },
+        {
+            "method": "Network.responseReceived",
+            "params": {
+                "frameId": "EE1BFB0891927F6ECED33B6D178F4883",
+                "hasExtraInfo": true,
+                "loaderId": "9EC2F4E4F09783F3FF304E7D838FE8FF",
+                "requestId": "1160.3",
+                "response": {
+                    "alternateProtocolUsage": "unspecifiedReason",
+                    "charset": "utf-8",
+                    "connectionId": 132,
+                    "connectionReused": true,
+                    "encodedDataLength": 330,
+                    "fromDiskCache": false,
+                    "fromPrefetchCache": false,
+                    "fromServiceWorker": false,
+                    "headers": {
+                        "Cache-Control": "no-cache",
+                        "Connection": "keep-alive",
+                        "Content-Disposition": "inline; filename=style.css",
+                        "Content-Length": "1317",
+                        "Content-Type": "text/css; charset=utf-8",
+                        "Date": "Fri, 15 Nov 2024 19:25:35 GMT",
+                        "Etag": "\"1728313073.0-1317-3500018777\"",
+                        "Last-Modified": "Mon, 07 Oct 2024 14:57:53 GMT",
+                        "Server": "nginx/1.24.0 (Ubuntu)"
+                    },
+                    "mimeType": "text/css",
+                    "protocol": "http/1.1",
+                    "remoteIPAddress": "3.217.19.152",
+                    "remotePort": 443,
+                    "responseTime": 1731698734423.375,
+                    "securityDetails": {
+                        "certificateId": 0,
+                        "certificateTransparencyCompliance": "compliant",
+                        "cipher": "AES_256_GCM",
+                        "encryptedClientHello": false,
+                        "issuer": "E5",
+                        "keyExchange": "",
+                        "keyExchangeGroup": "X25519",
+                        "protocol": "TLS 1.3",
+                        "sanList": [
+                            "qa-container.agilecontent.com.br"
+                        ],
+                        "serverSignatureAlgorithm": 1027,
+                        "signedCertificateTimestampList": [
+                            {
+                                "hashAlgorithm": "SHA-256",
+                                "logDescription": "Let's Encrypt 'Oak2024H2' log",
+                                "logId": "3F174B4FD7224758941D651C84BE0D12ED90377F1F856AEBC1BF2885ECF8646E",
+                                "origin": "Embedded in certificate",
+                                "signatureAlgorithm": "ECDSA",
+                                "signatureData": "30450221008DDBDE91F54B59C9833F10AC31F9DF3BC4A12320A9375C388E18918DF3A7F42D0220171A5C6F5A95C96B7F0B670EEC6CB3FFF111137EEB6A8609D4BE149752B4188A",
+                                "status": "Verified",
+                                "timestamp": 1728245805929.0
+                            },
+                            {
+                                "hashAlgorithm": "SHA-256",
+                                "logDescription": "Sectigo 'Sabre2025h1'",
+                                "logId": "E092B3FC0C1DC8E768361FDE61B9964D0A5278198A72D672C4B04DA56D6F5404",
+                                "origin": "Embedded in certificate",
+                                "signatureAlgorithm": "ECDSA",
+                                "signatureData": "3045022100860757E50BC369B4B055AAACB2BFFA2CE140B7A783B472F721C9015F33BCF07E022046DD7C78112D48EAA69C648E6FEA64816A0B7E5461667752E0B33665CFAF6262",
+                                "status": "Verified",
+                                "timestamp": 1728245807970.0
+                            }
+                        ],
+                        "subjectName": "qa-container.agilecontent.com.br",
+                        "validFrom": 1728242295,
+                        "validTo": 1736018294
+                    },
+                    "securityState": "secure",
+                    "status": 200,
+                    "statusText": "OK",
+                    "timing": {
+                        "connectEnd": -1,
+                        "connectStart": -1,
+                        "dnsEnd": -1,
+                        "dnsStart": -1,
+                        "proxyEnd": -1,
+                        "proxyStart": -1,
+                        "pushEnd": 0,
+                        "pushStart": 0,
+                        "receiveHeadersEnd": 155.893,
+                        "receiveHeadersStart": 155.733,
+                        "requestTime": 232108.989501,
+                        "sendEnd": 6.588,
+                        "sendStart": 6.541,
+                        "sslEnd": -1,
+                        "sslStart": -1,
+                        "workerFetchStart": -1,
+                        "workerReady": -1,
+                        "workerRespondWithSettled": -1,
+                        "workerStart": -1
+                    },
+                    "url": "https://qa-container.agilecontent.com.br/ec2-monitor/style.css"
+                },
+                "timestamp": 232109.145835,
+                "type": "Stylesheet"
+            }
+        },
+        {
+            "method": "Network.responseReceived",
+            "params": {
+                "frameId": "EE1BFB0891927F6ECED33B6D178F4883",
+                "hasExtraInfo": true,
+                "loaderId": "9EC2F4E4F09783F3FF304E7D838FE8FF",
+                "requestId": "1160.8",
+                "response": {
+                    "alternateProtocolUsage": "unspecifiedReason",
+                    "charset": "utf-8",
+                    "connectionId": 126,
+                    "connectionReused": true,
+                    "encodedDataLength": 341,
+                    "fromDiskCache": false,
+                    "fromPrefetchCache": false,
+                    "fromServiceWorker": false,
+                    "headers": {
+                        "Cache-Control": "no-cache",
+                        "Connection": "keep-alive",
+                        "Content-Disposition": "inline; filename=index.js",
+                        "Content-Length": "876",
+                        "Content-Type": "application/javascript; charset=utf-8",
+                        "Date": "Fri, 15 Nov 2024 19:25:35 GMT",
+                        "Etag": "\"1728313073.0-876-3280210900\"",
+                        "Last-Modified": "Mon, 07 Oct 2024 14:57:53 GMT",
+                        "Server": "nginx/1.24.0 (Ubuntu)"
+                    },
+                    "mimeType": "application/javascript",
+                    "protocol": "http/1.1",
+                    "remoteIPAddress": "3.217.19.152",
+                    "remotePort": 443,
+                    "responseTime": 1731698734423.75,
+                    "securityDetails": {
+                        "certificateId": 0,
+                        "certificateTransparencyCompliance": "compliant",
+                        "cipher": "AES_256_GCM",
+                        "encryptedClientHello": false,
+                        "issuer": "E5",
+                        "keyExchange": "",
+                        "keyExchangeGroup": "X25519",
+                        "protocol": "TLS 1.3",
+                        "sanList": [
+                            "qa-container.agilecontent.com.br"
+                        ],
+                        "serverSignatureAlgorithm": 1027,
+                        "signedCertificateTimestampList": [
+                            {
+                                "hashAlgorithm": "SHA-256",
+                                "logDescription": "Let's Encrypt 'Oak2024H2' log",
+                                "logId": "3F174B4FD7224758941D651C84BE0D12ED90377F1F856AEBC1BF2885ECF8646E",
+                                "origin": "Embedded in certificate",
+                                "signatureAlgorithm": "ECDSA",
+                                "signatureData": "30450221008DDBDE91F54B59C9833F10AC31F9DF3BC4A12320A9375C388E18918DF3A7F42D0220171A5C6F5A95C96B7F0B670EEC6CB3FFF111137EEB6A8609D4BE149752B4188A",
+                                "status": "Verified",
+                                "timestamp": 1728245805929.0
+                            },
+                            {
+                                "hashAlgorithm": "SHA-256",
+                                "logDescription": "Sectigo 'Sabre2025h1'",
+                                "logId": "E092B3FC0C1DC8E768361FDE61B9964D0A5278198A72D672C4B04DA56D6F5404",
+                                "origin": "Embedded in certificate",
+                                "signatureAlgorithm": "ECDSA",
+                                "signatureData": "3045022100860757E50BC369B4B055AAACB2BFFA2CE140B7A783B472F721C9015F33BCF07E022046DD7C78112D48EAA69C648E6FEA64816A0B7E5461667752E0B33665CFAF6262",
+                                "status": "Verified",
+                                "timestamp": 1728245807970.0
+                            }
+                        ],
+                        "subjectName": "qa-container.agilecontent.com.br",
+                        "validFrom": 1728242295,
+                        "validTo": 1736018294
+                    },
+                    "securityState": "secure",
+                    "status": 200,
+                    "statusText": "OK",
+                    "timing": {
+                        "connectEnd": -1,
+                        "connectStart": -1,
+                        "dnsEnd": -1,
+                        "dnsStart": -1,
+                        "proxyEnd": -1,
+                        "proxyStart": -1,
+                        "pushEnd": 0,
+                        "pushStart": 0,
+                        "receiveHeadersEnd": 155.829,
+                        "receiveHeadersStart": 155.605,
+                        "requestTime": 232108.990004,
+                        "sendEnd": 6.138,
+                        "sendStart": 6.107,
+                        "sslEnd": -1,
+                        "sslStart": -1,
+                        "workerFetchStart": -1,
+                        "workerReady": -1,
+                        "workerRespondWithSettled": -1,
+                        "workerStart": -1
+                    },
+                    "url": "https://qa-container.agilecontent.com.br/ec2-monitor/index.js"
+                },
+                "timestamp": 232109.146433,
+                "type": "Script"
+            }
+        },
+        {
+            "method": "Network.requestWillBeSent",
+            "params": {
+                "documentURL": "https://qa-container.agilecontent.com.br/ec2-monitor/index.html",
+                "frameId": "EE1BFB0891927F6ECED33B6D178F4883",
+                "hasUserGesture": false,
+                "initiator": {
+                    "columnNumber": 59,
+                    "lineNumber": 83,
+                    "type": "parser",
+                    "url": "https://qa-container.agilecontent.com.br/ec2-monitor/index.html"
+                },
+                "loaderId": "9EC2F4E4F09783F3FF304E7D838FE8FF",
+                "redirectHasExtraInfo": true,
+                "redirectResponse": {
+                    "alternateProtocolUsage": "unspecifiedReason",
+                    "charset": "utf-8",
+                    "connectionId": 197,
+                    "connectionReused": false,
+                    "encodedDataLength": 361,
+                    "fromDiskCache": false,
+                    "fromPrefetchCache": false,
+                    "fromServiceWorker": false,
+                    "headers": {
+                        "access-control-allow-origin": "*",
+                        "age": "289",
+                        "cache-control": "public, s-maxage=600, max-age=60",
+                        "cf-cache-status": "HIT",
+                        "cf-ray": "8e31a0c7dd004111-ITJ",
+                        "content-encoding": "br",
+                        "content-type": "text/plain; charset=utf-8",
+                        "date": "Fri, 15 Nov 2024 19:25:35 GMT",
+                        "fly-request-id": "01JCRMAM360SDVFWX4CB1826ZJ-gig",
+                        "location": "/vue@3.5.13/dist/vue.global.js",
+                        "server": "cloudflare",
+                        "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                        "vary": "Accept, Accept-Encoding",
+                        "via": "1.1 fly.io",
+                        "x-content-type-options": "nosniff"
+                    },
+                    "mimeType": "text/plain",
+                    "protocol": "h2",
+                    "remoteIPAddress": "104.17.245.203",
+                    "remotePort": 443,
+                    "responseTime": 1731698734428.407,
+                    "securityDetails": {
+                        "certificateId": 0,
+                        "certificateTransparencyCompliance": "compliant",
+                        "cipher": "AES_128_GCM",
+                        "encryptedClientHello": false,
+                        "issuer": "WE1",
+                        "keyExchange": "",
+                        "keyExchangeGroup": "X25519MLKEM768",
+                        "protocol": "TLS 1.3",
+                        "sanList": [
+                            "unpkg.com",
+                            "*.unpkg.com"
+                        ],
+                        "serverSignatureAlgorithm": 1027,
+                        "signedCertificateTimestampList": [
+                            {
+                                "hashAlgorithm": "SHA-256",
+                                "logDescription": "Google 'Argon2024' log",
+                                "logId": "EECDD064D5DB1ACEC55CB79DB4CD13A23287467CBCECDEC351485946711FB59B",
+                                "origin": "Embedded in certificate",
+                                "signatureAlgorithm": "ECDSA",
+                                "signatureData": "30440220318D4BCF8D2F80B7990AF210325E5F40848C6FEF41000ECF0EE72CEB191D8E2202204BC12AB4CBBF7866C602617A07E32C30FA7A1336D78B8D3EC6E14F3E7E150FE3",
+                                "status": "Verified",
+                                "timestamp": 1727253037244.0
+                            },
+                            {
+                                "hashAlgorithm": "SHA-256",
+                                "logDescription": "Cloudflare 'Nimbus2024' Log",
+                                "logId": "DAB6BF6B3FB5B6229F9BC2BB5C6BE87091716CBB51848534BDA43D3048D7FBAB",
+                                "origin": "Embedded in certificate",
+                                "signatureAlgorithm": "ECDSA",
+                                "signatureData": "304502200E324530E547770AC7C0056F36DFE1A58D01ADDCCA48359BB45B9DBB7D30E53102210082EF45ECCD22FF6321C358EFC10F94DEC68729FE0BF1EC32916F40454159F8AE",
+                                "status": "Verified",
+                                "timestamp": 1727253038298.0
+                            }
+                        ],
+                        "subjectName": "unpkg.com",
+                        "validFrom": 1727249436,
+                        "validTo": 1735025435
+                    },
+                    "securityState": "secure",
+                    "status": 302,
+                    "statusText": "",
+                    "timing": {
+                        "connectEnd": 97.385,
+                        "connectStart": 25.775,
+                        "dnsEnd": 25.263,
+                        "dnsStart": 5.861,
+                        "proxyEnd": -1,
+                        "proxyStart": -1,
+                        "pushEnd": 0,
+                        "pushStart": 0,
+                        "receiveHeadersEnd": 160.487,
+                        "receiveHeadersStart": 160.349,
+                        "requestTime": 232108.989898,
+                        "sendEnd": 97.491,
+                        "sendStart": 97.445,
+                        "sslEnd": 97.383,
+                        "sslStart": 56.149,
+                        "workerFetchStart": -1,
+                        "workerReady": -1,
+                        "workerRespondWithSettled": -1,
+                        "workerStart": -1
+                    },
+                    "url": "https://unpkg.com/vue@3/dist/vue.global.js"
+                },
+                "request": {
+                    "headers": {
+                        "Referer": "https://qa-container.agilecontent.com.br/",
+                        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                    },
+                    "initialPriority": "Medium",
+                    "isSameSite": false,
+                    "method": "GET",
+                    "mixedContentType": "none",
+                    "referrerPolicy": "strict-origin-when-cross-origin",
+                    "url": "https://unpkg.com/vue@3.5.13/dist/vue.global.js"
+                },
+                "requestId": "1160.7",
+                "timestamp": 232109.150686,
+                "type": "Script",
+                "wallTime": 1731698734.428864
+            }
+        },
+        {
+            "method": "Network.responseReceived",
+            "params": {
+                "frameId": "EE1BFB0891927F6ECED33B6D178F4883",
+                "hasExtraInfo": true,
+                "loaderId": "9EC2F4E4F09783F3FF304E7D838FE8FF",
+                "requestId": "1160.4",
+                "response": {
+                    "alternateProtocolUsage": "unspecifiedReason",
+                    "charset": "utf-8",
+                    "connectionId": 195,
+                    "connectionReused": false,
+                    "encodedDataLength": 783,
+                    "fromDiskCache": false,
+                    "fromPrefetchCache": false,
+                    "fromServiceWorker": false,
+                    "headers": {
+                        "access-control-allow-origin": "*",
+                        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+                        "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+                        "content-encoding": "gzip",
+                        "content-type": "text/css; charset=utf-8",
+                        "cross-origin-opener-policy": "same-origin-allow-popups",
+                        "cross-origin-resource-policy": "cross-origin",
+                        "date": "Fri, 15 Nov 2024 19:25:35 GMT",
+                        "expires": "Fri, 15 Nov 2024 19:25:35 GMT",
+                        "last-modified": "Fri, 15 Nov 2024 19:25:35 GMT",
+                        "link": "<https://fonts.gstatic.com>; rel=preconnect; crossorigin",
+                        "server": "ESF",
+                        "strict-transport-security": "max-age=31536000",
+                        "timing-allow-origin": "*",
+                        "vary": "Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site",
+                        "x-content-type-options": "nosniff",
+                        "x-frame-options": "SAMEORIGIN",
+                        "x-xss-protection": "0"
+                    },
+                    "mimeType": "text/css",
+                    "protocol": "h2",
+                    "remoteIPAddress": "142.251.132.234",
+                    "remotePort": 443,
+                    "responseTime": 1731698734447.091,
+                    "securityDetails": {
+                        "certificateId": 0,
+                        "certificateTransparencyCompliance": "compliant",
+                        "cipher": "AES_128_GCM",
+                        "encryptedClientHello": false,
+                        "issuer": "WR2",
+                        "keyExchange": "",
+                        "keyExchangeGroup": "X25519MLKEM768",
+                        "protocol": "TLS 1.3",
+                        "sanList": [
+                            "upload.video.google.com",
+                            "*.clients.google.com",
+                            "*.docs.google.com",
+                            "*.drive.google.com",
+                            "*.gdata.youtube.com",
+                            "*.googleapis.com",
+                            "*.photos.google.com",
+                            "*.youtube-3rd-party.com",
+                            "upload.google.com",
+                            "*.upload.google.com",
+                            "upload.youtube.com",
+                            "*.upload.youtube.com",
+                            "uploads.stage.gdata.youtube.com",
+                            "bg-call-donation.goog",
+                            "bg-call-donation-alpha.goog",
+                            "bg-call-donation-canary.goog",
+                            "bg-call-donation-dev.goog"
+                        ],
+                        "serverSignatureAlgorithm": 1027,
+                        "signedCertificateTimestampList": [
+                            {
+                                "hashAlgorithm": "SHA-256",
+                                "logDescription": "Google 'Xenon2025h1' log",
+                                "logId": "CF1156EED52E7CAFF3875BD9692E9BE91A71674AB017ECAC01D25B77CECC3B08",
+                                "origin": "Embedded in certificate",
+                                "signatureAlgorithm": "ECDSA",
+                                "signatureData": "3045022100C7481AD1D91C7B5992CC52F1A514AC006EEE3B9E7C70CF4171CCF3403697A5DE0220191AF7E4427A67F9C4C08CFE8A04DB82DBD3217677969D344A92041D3ED1E8B9",
+                                "status": "Verified",
+                                "timestamp": 1729503481229.0
+                            },
+                            {
+                                "hashAlgorithm": "SHA-256",
+                                "logDescription": "DigiCert Nessie2025 Log",
+                                "logId": "E6D2316340778CC1104106D771B9CEC1D240F6968486FBBA87321DFD1E378E50",
+                                "origin": "Embedded in certificate",
+                                "signatureAlgorithm": "ECDSA",
+                                "signatureData": "3045022076A6516361D60C3C48BEE4FD3FB1CC960B094657183C4CD44801D1909F50C47A0221009850302BF41BE1239E6CC0209955031E84F1FBA3F114C19B889CF9E61B106BCE",
+                                "status": "Verified",
+                                "timestamp": 1729503481199.0
+                            }
+                        ],
+                        "subjectName": "upload.video.google.com",
+                        "validFrom": 1729499880,
+                        "validTo": 1736757479
+                    },
+                    "securityState": "secure",
+                    "status": 200,
+                    "statusText": "",
+                    "timing": {
+                        "connectEnd": 109.363,
+                        "connectStart": 25.888,
+                        "dnsEnd": 25.448,
+                        "dnsStart": 5.823,
+                        "proxyEnd": -1,
+                        "proxyStart": -1,
+                        "pushEnd": 0,
+                        "pushStart": 0,
+                        "receiveHeadersEnd": 179.445,
+                        "receiveHeadersStart": 179.255,
+                        "requestTime": 232108.989669,
+                        "sendEnd": 109.486,
+                        "sendStart": 109.437,
+                        "sslEnd": 109.361,
+                        "sslStart": 41.764,
+                        "workerFetchStart": -1,
+                        "workerReady": -1,
+                        "workerRespondWithSettled": -1,
+                        "workerStart": -1
+                    },
+                    "url": "https://fonts.googleapis.com/icon?family=Material+Icons"
+                },
+                "timestamp": 232109.169686,
+                "type": "Stylesheet"
+            }
+        },
+        {
+            "method": "Network.requestWillBeSent",
+            "params": {
+                "documentURL": "https://qa-container.agilecontent.com.br/ec2-monitor/index.html",
+                "frameId": "EE1BFB0891927F6ECED33B6D178F4883",
+                "hasUserGesture": false,
+                "initiator": {
+                    "type": "parser",
+                    "url": "https://fonts.googleapis.com/icon?family=Material+Icons"
+                },
+                "loaderId": "9EC2F4E4F09783F3FF304E7D838FE8FF",
+                "redirectHasExtraInfo": false,
+                "request": {
+                    "headers": {
+                        "Origin": "https://qa-container.agilecontent.com.br",
+                        "Referer": "https://fonts.googleapis.com/",
+                        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+                        "sec-ch-ua": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+                        "sec-ch-ua-mobile": "?0",
+                        "sec-ch-ua-platform": "\"Windows\""
+                    },
+                    "initialPriority": "VeryHigh",
+                    "isSameSite": false,
+                    "method": "GET",
+                    "mixedContentType": "none",
+                    "referrerPolicy": "strict-origin-when-cross-origin",
+                    "url": "https://fonts.gstatic.com/s/materialicons/v142/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2"
+                },
+                "requestId": "1160.15",
+                "timestamp": 232109.178065,
+                "type": "Font",
+                "wallTime": 1731698734.456226
+            }
+        },
+        {
+            "method": "Network.responseReceived",
+            "params": {
+                "frameId": "EE1BFB0891927F6ECED33B6D178F4883",
+                "hasExtraInfo": true,
+                "loaderId": "9EC2F4E4F09783F3FF304E7D838FE8FF",
+                "requestId": "1160.7",
+                "response": {
+                    "alternateProtocolUsage": "unspecifiedReason",
+                    "charset": "utf-8",
+                    "connectionId": 197,
+                    "connectionReused": true,
+                    "encodedDataLength": 1554,
+                    "fromDiskCache": false,
+                    "fromPrefetchCache": false,
+                    "fromServiceWorker": false,
+                    "headers": {
+                        "access-control-allow-origin": "*",
+                        "age": "15597",
+                        "cache-control": "public, max-age=31536000",
+                        "cf-cache-status": "HIT",
+                        "cf-ray": "8e31a0c83d3f4111-ITJ",
+                        "content-encoding": "br",
+                        "content-type": "application/javascript; charset=utf-8",
+                        "date": "Fri, 15 Nov 2024 19:25:35 GMT",
+                        "etag": "\"8960c-3RL5p4uQS3vcyg4x1IW7St7MykM\"",
+                        "fly-request-id": "01JCR5QE89MESKBN52E01W9CAV-gig",
+                        "last-modified": "Sat, 26 Oct 1985 08:15:00 GMT",
+                        "server": "cloudflare",
+                        "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                        "vary": "Accept-Encoding",
+                        "via": "1.1 fly.io",
+                        "x-content-type-options": "nosniff"
+                    },
+                    "mimeType": "application/javascript",
+                    "protocol": "h2",
+                    "remoteIPAddress": "104.17.245.203",
+                    "remotePort": 443,
+                    "responseTime": 1731698734472.438,
+                    "securityState": "unknown",
+                    "status": 200,
+                    "statusText": "",
+                    "timing": {
+                        "connectEnd": -1,
+                        "connectStart": -1,
+                        "dnsEnd": -1,
+                        "dnsStart": -1,
+                        "proxyEnd": -1,
+                        "proxyStart": -1,
+                        "pushEnd": 0,
+                        "pushStart": 0,
+                        "receiveHeadersEnd": 43.618,
+                        "receiveHeadersStart": 43.408,
+                        "requestTime": 232109.150868,
+                        "sendEnd": 0.25,
+                        "sendStart": 0.186,
+                        "sslEnd": -1,
+                        "sslStart": -1,
+                        "workerFetchStart": -1,
+                        "workerReady": -1,
+                        "workerRespondWithSettled": -1,
+                        "workerStart": -1
+                    },
+                    "url": "https://unpkg.com/vue@3.5.13/dist/vue.global.js"
+                },
+                "timestamp": 232109.232178,
+                "type": "Script"
+            }
+        },
+        {
+            "method": "Network.requestWillBeSent",
+            "params": {
+                "documentURL": "https://qa-container.agilecontent.com.br/ec2-monitor/index.html",
+                "frameId": "EE1BFB0891927F6ECED33B6D178F4883",
+                "hasUserGesture": false,
+                "initiator": {
+                    "stack": {
+                        "callFrames": [
+                            {
+                                "columnNumber": 27,
+                                "functionName": "mounted",
+                                "lineNumber": 13,
+                                "scriptId": "18",
+                                "url": "https://qa-container.agilecontent.com.br/ec2-monitor/index.js"
+                            },
+                            {
+                                "columnNumber": 41,
+                                "functionName": "",
+                                "lineNumber": 5003,
+                                "scriptId": "25",
+                                "url": "https://unpkg.com/vue@3/dist/vue.global.js"
+                            },
+                            {
+                                "columnNumber": 20,
+                                "functionName": "callWithErrorHandling",
+                                "lineNumber": 2409,
+                                "scriptId": "25",
+                                "url": "https://unpkg.com/vue@3/dist/vue.global.js"
+                            },
+                            {
+                                "columnNumber": 18,
+                                "functionName": "callWithAsyncErrorHandling",
+                                "lineNumber": 2416,
+                                "scriptId": "25",
+                                "url": "https://unpkg.com/vue@3/dist/vue.global.js"
+                            },
+                            {
+                                "columnNumber": 20,
+                                "functionName": "hook.__weh.hook.__weh",
+                                "lineNumber": 4983,
+                                "scriptId": "25",
+                                "url": "https://unpkg.com/vue@3/dist/vue.global.js"
+                            },
+                            {
+                                "columnNumber": 29,
+                                "functionName": "flushPostFlushCbs",
+                                "lineNumber": 2591,
+                                "scriptId": "25",
+                                "url": "https://unpkg.com/vue@3/dist/vue.global.js"
+                            },
+                            {
+                                "columnNumber": 8,
+                                "functionName": "render",
+                                "lineNumber": 8136,
+                                "scriptId": "25",
+                                "url": "https://unpkg.com/vue@3/dist/vue.global.js"
+                            },
+                            {
+                                "columnNumber": 14,
+                                "functionName": "mount",
+                                "lineNumber": 6122,
+                                "scriptId": "25",
+                                "url": "https://unpkg.com/vue@3/dist/vue.global.js"
+                            },
+                            {
+                                "columnNumber": 20,
+                                "functionName": "app.mount",
+                                "lineNumber": 12198,
+                                "scriptId": "25",
+                                "url": "https://unpkg.com/vue@3/dist/vue.global.js"
+                            },
+                            {
+                                "columnNumber": 3,
+                                "functionName": "",
+                                "lineNumber": 41,
+                                "scriptId": "18",
+                                "url": "https://qa-container.agilecontent.com.br/ec2-monitor/index.js"
+                            }
+                        ]
+                    },
+                    "type": "script"
+                },
+                "loaderId": "9EC2F4E4F09783F3FF304E7D838FE8FF",
+                "redirectHasExtraInfo": false,
+                "request": {
+                    "headers": {
+                        "Accept": "application/json",
+                        "Referer": "https://qa-container.agilecontent.com.br/ec2-monitor/index.html",
+                        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+                        "sec-ch-ua": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+                        "sec-ch-ua-mobile": "?0",
+                        "sec-ch-ua-platform": "\"Windows\""
+                    },
+                    "initialPriority": "High",
+                    "isSameSite": true,
+                    "method": "POST",
+                    "mixedContentType": "none",
+                    "referrerPolicy": "strict-origin-when-cross-origin",
+                    "url": "https://qa-container.agilecontent.com.br/ec2-monitor/api/v1/machines"
+                },
+                "requestId": "1160.17",
+                "timestamp": 232109.255737,
+                "type": "Fetch",
+                "wallTime": 1731698734.533915
+            }
+        },
+        {
+            "method": "Network.responseReceived",
+            "params": {
+                "frameId": "EE1BFB0891927F6ECED33B6D178F4883",
+                "hasExtraInfo": true,
+                "loaderId": "9EC2F4E4F09783F3FF304E7D838FE8FF",
+                "requestId": "1160.6",
+                "response": {
+                    "alternateProtocolUsage": "unspecifiedReason",
+                    "charset": "",
+                    "connectionId": 126,
+                    "connectionReused": true,
+                    "encodedDataLength": 316,
+                    "fromDiskCache": false,
+                    "fromPrefetchCache": false,
+                    "fromServiceWorker": false,
+                    "headers": {
+                        "Cache-Control": "no-cache",
+                        "Connection": "keep-alive",
+                        "Content-Disposition": "inline; filename=agile.png",
+                        "Content-Length": "2627",
+                        "Content-Type": "image/png",
+                        "Date": "Fri, 15 Nov 2024 19:25:35 GMT",
+                        "Etag": "\"1728313073.0-2627-3476360230\"",
+                        "Last-Modified": "Mon, 07 Oct 2024 14:57:53 GMT",
+                        "Server": "nginx/1.24.0 (Ubuntu)"
+                    },
+                    "mimeType": "image/png",
+                    "protocol": "http/1.1",
+                    "remoteIPAddress": "3.217.19.152",
+                    "remotePort": 443,
+                    "responseTime": 1731698734599.265,
+                    "securityDetails": {
+                        "certificateId": 0,
+                        "certificateTransparencyCompliance": "compliant",
+                        "cipher": "AES_256_GCM",
+                        "encryptedClientHello": false,
+                        "issuer": "E5",
+                        "keyExchange": "",
+                        "keyExchangeGroup": "X25519",
+                        "protocol": "TLS 1.3",
+                        "sanList": [
+                            "qa-container.agilecontent.com.br"
+                        ],
+                        "serverSignatureAlgorithm": 1027,
+                        "signedCertificateTimestampList": [
+                            {
+                                "hashAlgorithm": "SHA-256",
+                                "logDescription": "Let's Encrypt 'Oak2024H2' log",
+                                "logId": "3F174B4FD7224758941D651C84BE0D12ED90377F1F856AEBC1BF2885ECF8646E",
+                                "origin": "Embedded in certificate",
+                                "signatureAlgorithm": "ECDSA",
+                                "signatureData": "30450221008DDBDE91F54B59C9833F10AC31F9DF3BC4A12320A9375C388E18918DF3A7F42D0220171A5C6F5A95C96B7F0B670EEC6CB3FFF111137EEB6A8609D4BE149752B4188A",
+                                "status": "Verified",
+                                "timestamp": 1728245805929.0
+                            },
+                            {
+                                "hashAlgorithm": "SHA-256",
+                                "logDescription": "Sectigo 'Sabre2025h1'",
+                                "logId": "E092B3FC0C1DC8E768361FDE61B9964D0A5278198A72D672C4B04DA56D6F5404",
+                                "origin": "Embedded in certificate",
+                                "signatureAlgorithm": "ECDSA",
+                                "signatureData": "3045022100860757E50BC369B4B055AAACB2BFFA2CE140B7A783B472F721C9015F33BCF07E022046DD7C78112D48EAA69C648E6FEA64816A0B7E5461667752E0B33665CFAF6262",
+                                "status": "Verified",
+                                "timestamp": 1728245807970.0
+                            }
+                        ],
+                        "subjectName": "qa-container.agilecontent.com.br",
+                        "validFrom": 1728242295,
+                        "validTo": 1736018294
+                    },
+                    "securityState": "secure",
+                    "status": 200,
+                    "statusText": "OK",
+                    "timing": {
+                        "connectEnd": -1,
+                        "connectStart": -1,
+                        "dnsEnd": -1,
+                        "dnsStart": -1,
+                        "proxyEnd": -1,
+                        "proxyStart": -1,
+                        "pushEnd": 0,
+                        "pushStart": 0,
+                        "receiveHeadersEnd": 150.118,
+                        "receiveHeadersStart": 150.029,
+                        "requestTime": 232109.171095,
+                        "sendEnd": 0.369,
+                        "sendStart": 0.33,
+                        "sslEnd": -1,
+                        "sslStart": -1,
+                        "workerFetchStart": -1,
+                        "workerReady": -1,
+                        "workerRespondWithSettled": -1,
+                        "workerStart": -1
+                    },
+                    "url": "https://qa-container.agilecontent.com.br/ec2-monitor/agile.png"
+                },
+                "timestamp": 232109.321511,
+                "type": "Image"
+            }
+        },
+        {
+            "method": "Network.responseReceived",
+            "params": {
+                "frameId": "EE1BFB0891927F6ECED33B6D178F4883",
+                "hasExtraInfo": true,
+                "loaderId": "9EC2F4E4F09783F3FF304E7D838FE8FF",
+                "requestId": "1160.15",
+                "response": {
+                    "alternateProtocolUsage": "dnsAlpnH3JobWonRace",
+                    "charset": "",
+                    "connectionId": 0,
+                    "connectionReused": false,
+                    "encodedDataLength": 29,
+                    "fromDiskCache": false,
+                    "fromPrefetchCache": false,
+                    "fromServiceWorker": false,
+                    "headers": {
+                        "accept-ranges": "bytes",
+                        "access-control-allow-origin": "*",
+                        "age": "11917",
+                        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+                        "cache-control": "public, max-age=31536000",
+                        "content-length": "128352",
+                        "content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/apps-themes",
+                        "content-type": "font/woff2",
+                        "cross-origin-opener-policy": "same-origin; report-to=\"apps-themes\"",
+                        "cross-origin-resource-policy": "cross-origin",
+                        "date": "Fri, 15 Nov 2024 16:06:58 GMT",
+                        "expires": "Sat, 15 Nov 2025 16:06:58 GMT",
+                        "last-modified": "Mon, 08 Apr 2024 19:04:47 GMT",
+                        "report-to": "{\"group\":\"apps-themes\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/apps-themes\"}]}",
+                        "server": "sffe",
+                        "timing-allow-origin": "*",
+                        "x-content-type-options": "nosniff",
+                        "x-xss-protection": "0"
+                    },
+                    "mimeType": "font/woff2",
+                    "protocol": "h3",
+                    "remoteIPAddress": "142.250.219.131",
+                    "remotePort": 443,
+                    "responseTime": 1731698734595.558,
+                    "securityDetails": {
+                        "certificateId": 0,
+                        "certificateTransparencyCompliance": "compliant",
+                        "cipher": "AES_128_GCM",
+                        "encryptedClientHello": false,
+                        "issuer": "WR2",
+                        "keyExchange": "",
+                        "keyExchangeGroup": "X25519MLKEM768",
+                        "protocol": "QUIC",
+                        "sanList": [
+                            "*.gstatic.com",
+                            "gstatic.com",
+                            "*.metric.gstatic.com"
+                        ],
+                        "serverSignatureAlgorithm": 1027,
+                        "signedCertificateTimestampList": [
+                            {
+                                "hashAlgorithm": "SHA-256",
+                                "logDescription": "Google 'Xenon2025h1' log",
+                                "logId": "CF1156EED52E7CAFF3875BD9692E9BE91A71674AB017ECAC01D25B77CECC3B08",
+                                "origin": "Embedded in certificate",
+                                "signatureAlgorithm": "ECDSA",
+                                "signatureData": "3046022100EF71EA1264B25418A1EFD782A5394BC2C69BAA4675B7CCA9FC41E837E27D0418022100E4678EAFC06CBCD7088321F887A3D429926E7414BAC8FC6BE564934D435F2E98",
+                                "status": "Verified",
+                                "timestamp": 1729503480835.0
+                            },
+                            {
+                                "hashAlgorithm": "SHA-256",
+                                "logDescription": "Cloudflare 'Nimbus2025'",
+                                "logId": "CCFB0F6A85710965FE959B53CEE9B27C22E9855C0D978DB6A97E54C0FE4C0DB0",
+                                "origin": "Embedded in certificate",
+                                "signatureAlgorithm": "ECDSA",
+                                "signatureData": "3046022100FE09057EC1B10D30699E12CCC2400EACFCFE2F3D96917DA64BED00199289F779022100F8425C637DC762F96C401CD6EE21E04264AEA5516D88828A08569E055BD86F26",
+                                "status": "Verified",
+                                "timestamp": 1729503480829.0
+                            }
+                        ],
+                        "subjectName": "*.gstatic.com",
+                        "validFrom": 1729499879,
+                        "validTo": 1736757478
+                    },
+                    "securityState": "secure",
+                    "status": 200,
+                    "statusText": "",
+                    "timing": {
+                        "connectEnd": 101.222,
+                        "connectStart": 40.718,
+                        "dnsEnd": 40.419,
+                        "dnsStart": 0.144,
+                        "proxyEnd": -1,
+                        "proxyStart": -1,
+                        "pushEnd": 0,
+                        "pushStart": 0,
+                        "receiveHeadersEnd": 118.495,
+                        "receiveHeadersStart": 118.283,
+                        "requestTime": 232109.199119,
+                        "sendEnd": 101.415,
+                        "sendStart": 101.316,
+                        "sslEnd": 101.222,
+                        "sslStart": 40.718,
+                        "workerFetchStart": -1,
+                        "workerReady": -1,
+                        "workerRespondWithSettled": -1,
+                        "workerStart": -1
+                    },
+                    "url": "https://fonts.gstatic.com/s/materialicons/v142/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2"
+                },
+                "timestamp": 232109.349845,
+                "type": "Font"
+            }
+        },
+        {
+            "method": "Network.requestWillBeSent",
+            "params": {
+                "documentURL": "https://qa-container.agilecontent.com.br/ec2-monitor/index.html",
+                "frameId": "EE1BFB0891927F6ECED33B6D178F4883",
+                "hasUserGesture": false,
+                "initiator": {
+                    "type": "other"
+                },
+                "loaderId": "9EC2F4E4F09783F3FF304E7D838FE8FF",
+                "redirectHasExtraInfo": false,
+                "request": {
+                    "headers": {
+                        "Referer": "https://qa-container.agilecontent.com.br/ec2-monitor/index.html",
+                        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+                        "sec-ch-ua": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+                        "sec-ch-ua-mobile": "?0",
+                        "sec-ch-ua-platform": "\"Windows\""
+                    },
+                    "initialPriority": "High",
+                    "isSameSite": true,
+                    "method": "GET",
+                    "mixedContentType": "none",
+                    "referrerPolicy": "strict-origin-when-cross-origin",
+                    "url": "https://qa-container.agilecontent.com.br/favicon.ico"
+                },
+                "requestId": "1160.18",
+                "timestamp": 232109.353509,
+                "type": "Other",
+                "wallTime": 1731698734.63167
+            }
+        },
+        {
+            "method": "Network.responseReceived",
+            "params": {
+                "frameId": "EE1BFB0891927F6ECED33B6D178F4883",
+                "hasExtraInfo": true,
+                "loaderId": "9EC2F4E4F09783F3FF304E7D838FE8FF",
+                "requestId": "1160.18",
+                "response": {
+                    "alternateProtocolUsage": "unspecifiedReason",
+                    "charset": "",
+                    "connectionId": 126,
+                    "connectionReused": true,
+                    "encodedDataLength": 195,
+                    "fromDiskCache": false,
+                    "fromPrefetchCache": false,
+                    "fromServiceWorker": false,
+                    "headers": {
+                        "Connection": "keep-alive",
+                        "Content-Encoding": "gzip",
+                        "Content-Type": "text/html",
+                        "Date": "Fri, 15 Nov 2024 19:25:35 GMT",
+                        "Server": "nginx/1.24.0 (Ubuntu)",
+                        "Transfer-Encoding": "chunked"
+                    },
+                    "mimeType": "text/html",
+                    "protocol": "http/1.1",
+                    "remoteIPAddress": "3.217.19.152",
+                    "remotePort": 443,
+                    "responseTime": 1731698734776.527,
+                    "securityDetails": {
+                        "certificateId": 0,
+                        "certificateTransparencyCompliance": "compliant",
+                        "cipher": "AES_256_GCM",
+                        "encryptedClientHello": false,
+                        "issuer": "E5",
+                        "keyExchange": "",
+                        "keyExchangeGroup": "X25519",
+                        "protocol": "TLS 1.3",
+                        "sanList": [
+                            "qa-container.agilecontent.com.br"
+                        ],
+                        "serverSignatureAlgorithm": 1027,
+                        "signedCertificateTimestampList": [
+                            {
+                                "hashAlgorithm": "SHA-256",
+                                "logDescription": "Let's Encrypt 'Oak2024H2' log",
+                                "logId": "3F174B4FD7224758941D651C84BE0D12ED90377F1F856AEBC1BF2885ECF8646E",
+                                "origin": "Embedded in certificate",
+                                "signatureAlgorithm": "ECDSA",
+                                "signatureData": "30450221008DDBDE91F54B59C9833F10AC31F9DF3BC4A12320A9375C388E18918DF3A7F42D0220171A5C6F5A95C96B7F0B670EEC6CB3FFF111137EEB6A8609D4BE149752B4188A",
+                                "status": "Verified",
+                                "timestamp": 1728245805929.0
+                            },
+                            {
+                                "hashAlgorithm": "SHA-256",
+                                "logDescription": "Sectigo 'Sabre2025h1'",
+                                "logId": "E092B3FC0C1DC8E768361FDE61B9964D0A5278198A72D672C4B04DA56D6F5404",
+                                "origin": "Embedded in certificate",
+                                "signatureAlgorithm": "ECDSA",
+                                "signatureData": "3045022100860757E50BC369B4B055AAACB2BFFA2CE140B7A783B472F721C9015F33BCF07E022046DD7C78112D48EAA69C648E6FEA64816A0B7E5461667752E0B33665CFAF6262",
+                                "status": "Verified",
+                                "timestamp": 1728245807970.0
+                            }
+                        ],
+                        "subjectName": "qa-container.agilecontent.com.br",
+                        "validFrom": 1728242295,
+                        "validTo": 1736018294
+                    },
+                    "securityState": "secure",
+                    "status": 404,
+                    "statusText": "Not Found",
+                    "timing": {
+                        "connectEnd": -1,
+                        "connectStart": -1,
+                        "dnsEnd": -1,
+                        "dnsStart": -1,
+                        "proxyEnd": -1,
+                        "proxyStart": -1,
+                        "pushEnd": 0,
+                        "pushStart": 0,
+                        "receiveHeadersEnd": 144.778,
+                        "receiveHeadersStart": 144.677,
+                        "requestTime": 232109.353709,
+                        "sendEnd": 0.324,
+                        "sendStart": 0.279,
+                        "sslEnd": -1,
+                        "sslStart": -1,
+                        "workerFetchStart": -1,
+                        "workerReady": -1,
+                        "workerRespondWithSettled": -1,
+                        "workerStart": -1
+                    },
+                    "url": "https://qa-container.agilecontent.com.br/favicon.ico"
+                },
+                "timestamp": 232109.498909,
+                "type": "Other"
+            }
+        },
+        {
+            "method": "Network.responseReceived",
+            "params": {
+                "frameId": "EE1BFB0891927F6ECED33B6D178F4883",
+                "hasExtraInfo": true,
+                "loaderId": "9EC2F4E4F09783F3FF304E7D838FE8FF",
+                "requestId": "1160.17",
+                "response": {
+                    "alternateProtocolUsage": "unspecifiedReason",
+                    "charset": "",
+                    "connectionId": 132,
+                    "connectionReused": true,
+                    "encodedDataLength": 165,
+                    "fromDiskCache": false,
+                    "fromPrefetchCache": false,
+                    "fromServiceWorker": false,
+                    "headers": {
+                        "Connection": "keep-alive",
+                        "Content-Length": "6997",
+                        "Content-Type": "application/json",
+                        "Date": "Fri, 15 Nov 2024 19:25:37 GMT",
+                        "Server": "nginx/1.24.0 (Ubuntu)"
+                    },
+                    "mimeType": "application/json",
+                    "protocol": "http/1.1",
+                    "remoteIPAddress": "3.217.19.152",
+                    "remotePort": 443,
+                    "responseTime": 1731698736177.757,
+                    "securityDetails": {
+                        "certificateId": 0,
+                        "certificateTransparencyCompliance": "compliant",
+                        "cipher": "AES_256_GCM",
+                        "encryptedClientHello": false,
+                        "issuer": "E5",
+                        "keyExchange": "",
+                        "keyExchangeGroup": "X25519",
+                        "protocol": "TLS 1.3",
+                        "sanList": [
+                            "qa-container.agilecontent.com.br"
+                        ],
+                        "serverSignatureAlgorithm": 1027,
+                        "signedCertificateTimestampList": [
+                            {
+                                "hashAlgorithm": "SHA-256",
+                                "logDescription": "Let's Encrypt 'Oak2024H2' log",
+                                "logId": "3F174B4FD7224758941D651C84BE0D12ED90377F1F856AEBC1BF2885ECF8646E",
+                                "origin": "Embedded in certificate",
+                                "signatureAlgorithm": "ECDSA",
+                                "signatureData": "30450221008DDBDE91F54B59C9833F10AC31F9DF3BC4A12320A9375C388E18918DF3A7F42D0220171A5C6F5A95C96B7F0B670EEC6CB3FFF111137EEB6A8609D4BE149752B4188A",
+                                "status": "Verified",
+                                "timestamp": 1728245805929.0
+                            },
+                            {
+                                "hashAlgorithm": "SHA-256",
+                                "logDescription": "Sectigo 'Sabre2025h1'",
+                                "logId": "E092B3FC0C1DC8E768361FDE61B9964D0A5278198A72D672C4B04DA56D6F5404",
+                                "origin": "Embedded in certificate",
+                                "signatureAlgorithm": "ECDSA",
+                                "signatureData": "3045022100860757E50BC369B4B055AAACB2BFFA2CE140B7A783B472F721C9015F33BCF07E022046DD7C78112D48EAA69C648E6FEA64816A0B7E5461667752E0B33665CFAF6262",
+                                "status": "Verified",
+                                "timestamp": 1728245807970.0
+                            }
+                        ],
+                        "subjectName": "qa-container.agilecontent.com.br",
+                        "validFrom": 1728242295,
+                        "validTo": 1736018294
+                    },
+                    "securityState": "secure",
+                    "status": 200,
+                    "statusText": "OK",
+                    "timing": {
+                        "connectEnd": -1,
+                        "connectStart": -1,
+                        "dnsEnd": -1,
+                        "dnsStart": -1,
+                        "proxyEnd": -1,
+                        "proxyStart": -1,
+                        "pushEnd": 0,
+                        "pushStart": 0,
+                        "receiveHeadersEnd": 1643.616,
+                        "receiveHeadersStart": 1643.574,
+                        "requestTime": 232109.256042,
+                        "sendEnd": 0.284,
+                        "sendStart": 0.214,
+                        "sslEnd": -1,
+                        "sslStart": -1,
+                        "workerFetchStart": -1,
+                        "workerReady": -1,
+                        "workerRespondWithSettled": -1,
+                        "workerStart": -1
+                    },
+                    "url": "https://qa-container.agilecontent.com.br/ec2-monitor/api/v1/machines"
+                },
+                "timestamp": 232110.900192,
+                "type": "Fetch"
+            }
+        }
+    ]
+}
